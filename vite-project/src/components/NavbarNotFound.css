@@ -1,0 +1,36 @@
+
+.navbar {
+  background-color: #0748ed;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-size{
+  height: 50px;
+  width: 50px;
+  border-radius: 35px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+

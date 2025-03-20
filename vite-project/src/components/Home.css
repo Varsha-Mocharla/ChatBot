@@ -1,0 +1,65 @@
+/* src/styles/Home.css */
+.home-container {
+    height: 100vh;
+    width: 100%;
+    background: url('https://blog.min.io/content/images/2022/09/Achatbots-header--1-.png') no-repeat center center/cover; /* You can replace the URL with a real chatbot-related background image */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  /* .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+  } */
+  
+  .welcome-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow effect to the text */
+  }
+  
+  .welcome-text {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* A subtle shadow for the body text */
+  }
+  
+  .auth-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .login-btn {
+    background-color: #007BFF; /* Blue for login */
+    color: white;
+  }
+  
+  .signup-btn {
+    background-color: #28A745; /* Green for signup */
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
